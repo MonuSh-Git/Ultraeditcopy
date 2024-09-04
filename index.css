@@ -1,0 +1,225 @@
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .navbar{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 32px; 
+  }
+  .navbar li{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+/*  .art li{
+    list-style-type: none;
+  }
+  .art1{
+    font-size: 62px;
+    margin: 144px 104px 53px 185px;
+  }
+  .art2{
+    font-size: 33px;
+    margin-inline: 96px;
+  }
+  button{
+    background-color: aqua;
+    padding: 15px 11px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 800;
+    color: white;
+    margin-inline: 546px;
+    margin-top: 34px;
+    cursor: pointer;
+  }*/
+  .art {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
+      margin-top: 92px
+  }
+  .art li{
+    list-style-type: none;
+  }
+  .art1{
+    font-size: 62px;
+  }
+  .art2{
+    font-size: 33px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-inline: 69px;
+  }
+  .Dbtn{
+    background-color: rgb(0 189 164);
+    padding: 15px 11px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .Dbtn a{
+    text-decoration: none;
+    color: white;
+  }
+  .Dbtn a:hover{
+    color: rgb(0 189 164);
+  }  
+  .Dbtn:hover{
+    background-color: white;
+    color: rgb(0 189 164);
+
+  }
+  .box{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 307px 307px 307px;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 65px 65px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 87px;
+    
+
+  }
+  .box li{
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: space-around;
+  }
+  .btn{
+    border: none;
+    background-color: #217056;
+    color: white;
+    padding: 13px 17px;
+    border-radius: 9px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .btn:hover{
+    background-color:white ;
+    color: #217056;
+  }
+  .box li .lang{
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  section{
+    background-color: black;
+    height:100vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    gap: 23px;
+    margin-top: 87px;
+  }
+  .note{
+    color: white;
+  }
+  .note p{
+    margin-inline: 12px;
+  }
+  .email{
+    background-color: white;
+    height: 289px;
+    width: 398px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 11px;
+  }
+  #email{
+    border-radius: 2px;
+    border-radius: 4px;
+    padding: 14px 60px;
+    font-size: 16px;
+  }
+  p{
+    font-size: larger;
+  }
+  form h3{
+    color: rgb(0 189 164);
+    font-weight: 500;
+    font-size: 29px;
+    
+  }   
+  .signup{
+    color: white;
+    background-color: rgb(0 189 164);
+    border: none;
+    border-radius: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 13px 119px;
+
+  }
+  @media (max-width:1106px) {
+
+    nav{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .art1{
+      font-size: 50px;
+    }
+    .art2{
+      font-size: 30px;
+    }
+    .box{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+    section{
+      display: flex;
+      flex-direction: column;
+    }
+    #email{
+      font-size: 10px;
+    }
+    .signup{
+      font-size: 12px;
+    }
+    form h3{
+      font-size: 20px;
+    }
+    .email{
+      margin-top: 100px;
+      width: 300px;
+    }
+    .box li{
+      height: 250px;
+      width: 300px;
+    }
+  }
+
+
+
